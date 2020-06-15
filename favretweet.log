@@ -1,0 +1,120 @@
+INFO:root:API created
+INFO:root:API created
+INFO:root:API created
+INFO:root:Processing tweet id 1262137777908518914
+INFO:root:Processing tweet id 1262137807742611457
+INFO:root:Processing tweet id 1262137813878870020
+INFO:root:Processing tweet id 1262137827854254080
+INFO:root:Processing tweet id 1262137831159365635
+INFO:root:Processing tweet id 1262137836154707968
+INFO:root:Processing tweet id 1262137836909854721
+ERROR:root:Error on fav
+Traceback (most recent call last):
+  File "favretweet.py", line 23, in on_status
+    tweet.favorite()
+  File "C:\Users\Olawale\Envs\tweepy\lib\site-packages\tweepy\models.py", line 127, in favorite
+    return self._api.create_favorite(self.id)
+  File "C:\Users\Olawale\Envs\tweepy\lib\site-packages\tweepy\binder.py", line 250, in _call
+    return method.execute()
+  File "C:\Users\Olawale\Envs\tweepy\lib\site-packages\tweepy\binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+ERROR:root:Error on fav and retweet
+Traceback (most recent call last):
+  File "favretweet.py", line 29, in on_status
+    tweet.retweet()
+  File "C:\Users\Olawale\Envs\tweepy\lib\site-packages\tweepy\models.py", line 121, in retweet
+    return self._api.retweet(self.id)
+  File "C:\Users\Olawale\Envs\tweepy\lib\site-packages\tweepy\binder.py", line 250, in _call
+    return method.execute()
+  File "C:\Users\Olawale\Envs\tweepy\lib\site-packages\tweepy\binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+INFO:root:Processing tweet id 1262137841125122048
+INFO:root:Processing tweet id 1262137843113242625
+INFO:root:Processing tweet id 1262137843708841984
+INFO:root:Processing tweet id 1262137843922722824
+INFO:root:Processing tweet id 1262137855125618688
+ERROR:root:Error on fav
+Traceback (most recent call last):
+  File "favretweet.py", line 23, in on_status
+    tweet.favorite()
+  File "C:\Users\Olawale\Envs\tweepy\lib\site-packages\tweepy\models.py", line 127, in favorite
+    return self._api.create_favorite(self.id)
+  File "C:\Users\Olawale\Envs\tweepy\lib\site-packages\tweepy\binder.py", line 250, in _call
+    return method.execute()
+  File "C:\Users\Olawale\Envs\tweepy\lib\site-packages\tweepy\binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+ERROR:root:Error on fav and retweet
+Traceback (most recent call last):
+  File "favretweet.py", line 29, in on_status
+    tweet.retweet()
+  File "C:\Users\Olawale\Envs\tweepy\lib\site-packages\tweepy\models.py", line 121, in retweet
+    return self._api.retweet(self.id)
+  File "C:\Users\Olawale\Envs\tweepy\lib\site-packages\tweepy\binder.py", line 250, in _call
+    return method.execute()
+  File "C:\Users\Olawale\Envs\tweepy\lib\site-packages\tweepy\binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+INFO:root:Processing tweet id 1262137866181894146
+INFO:root:Processing tweet id 1262137874020958211
+INFO:root:Processing tweet id 1262137880631222272
+INFO:root:Processing tweet id 1262137919499898881
+INFO:root:Processing tweet id 1262137931877277699
+INFO:root:Processing tweet id 1262137937287950336
+INFO:root:Processing tweet id 1262137946620264449
+INFO:root:Processing tweet id 1262137947215839232
+INFO:root:Processing tweet id 1262137951565295618
+INFO:root:Processing tweet id 1262137952781697027
+INFO:root:Processing tweet id 1262137986554179586
+INFO:root:Processing tweet id 1262137992145182720
+INFO:root:Processing tweet id 1262137998486802435
+INFO:root:Processing tweet id 1262138004136755202
+INFO:root:Processing tweet id 1262138034440585218
+INFO:root:Processing tweet id 1262138039503138816
+INFO:root:Processing tweet id 1262138054220734469
+INFO:root:Processing tweet id 1262138054309023744
+INFO:root:Processing tweet id 1262138065847549952
+INFO:root:Processing tweet id 1262138067839791104
+INFO:root:Processing tweet id 1262138094368718851
+INFO:root:Processing tweet id 1262138097409671172
+INFO:root:Processing tweet id 1262138110521081856
+INFO:root:Processing tweet id 1262138110705651712
+INFO:root:Processing tweet id 1262138111129260033
+INFO:root:Processing tweet id 1262138131521966080
+INFO:root:Processing tweet id 1262138137507225600
+INFO:root:Processing tweet id 1262138165000916992
+INFO:root:Processing tweet id 1262138181459329025
+INFO:root:Processing tweet id 1262138196332331010
+INFO:root:Processing tweet id 1262138282684502018
+INFO:root:Processing tweet id 1262138317744865281
+INFO:root:Processing tweet id 1262138320693465088
+INFO:root:Processing tweet id 1262138351752302593
+INFO:root:Processing tweet id 1262138355032027136
+INFO:root:Processing tweet id 1262138387173199874
+INFO:root:Processing tweet id 1262138391405232129
+ERROR:root:Error on fav
+Traceback (most recent call last):
+  File "favretweet.py", line 23, in on_status
+    tweet.favorite()
+  File "C:\Users\Olawale\Envs\tweepy\lib\site-packages\tweepy\models.py", line 127, in favorite
+    return self._api.create_favorite(self.id)
+  File "C:\Users\Olawale\Envs\tweepy\lib\site-packages\tweepy\binder.py", line 250, in _call
+    return method.execute()
+  File "C:\Users\Olawale\Envs\tweepy\lib\site-packages\tweepy\binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 139, 'message': 'You have already favorited this status.'}]
+ERROR:root:Error on fav and retweet
+Traceback (most recent call last):
+  File "favretweet.py", line 29, in on_status
+    tweet.retweet()
+  File "C:\Users\Olawale\Envs\tweepy\lib\site-packages\tweepy\models.py", line 121, in retweet
+    return self._api.retweet(self.id)
+  File "C:\Users\Olawale\Envs\tweepy\lib\site-packages\tweepy\binder.py", line 250, in _call
+    return method.execute()
+  File "C:\Users\Olawale\Envs\tweepy\lib\site-packages\tweepy\binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+INFO:root:Processing tweet id 1262138394819387392
+INFO:root:Processing tweet id 1262138399537987584
